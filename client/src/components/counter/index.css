@@ -1,3 +1,7 @@
+.counter {
+  margin-top: 40px;
+}
+
 span {
   font-size: 20px;
 }
@@ -9,6 +13,8 @@ section {
 }
 
 button {
+  background-color: rgba(112, 172, 225, 0.5);
+  color: green;
   padding: 0.5em 1em;
   margin-top: 1em;
   border: 2px solid green;
@@ -17,5 +23,6 @@ button {
 
 button:hover {
   cursor: pointer;
+  background-color: rgba(240, 248, 255, 0.9);
   box-shadow: 2px 2px 5px black;
 }

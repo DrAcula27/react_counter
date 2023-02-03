@@ -1,13 +1,24 @@
-import React from "react";
+import { useState } from "react";
 import "./index.css";
 
 const Counter = () => {
+  // use array destructuring to set a count variable and setCount function from the useState Hook
+  const [count, setCount] = useState(0);
+
+  const handleIncrement = () => {
+    setCount(count + 1);
+  };
+
+  const handleDecrement = () => {
+    setCount(count - 1);
+  };
+
   return (
-    <div>
-      <span>Current Count: 0</span>
+    <div className="counter">
+      <span>Current Count: {count}</span>
       <section>
-        <button>+</button>
-        <button>-</button>
+        <button onClick={handleIncrement}>+</button>
+        <button onClick={handleDecrement}>-</button>
       </section>
     </div>
   );
