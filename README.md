@@ -1,12 +1,43 @@
-# Getting Started with Create React App
+<h1 align="center">Welcome to react_counter!</h1>
+<p>
+  <img src="https://img.shields.io/badge/npm-%3E%3D9.1.2-blue.svg" />
+  <img src="https://img.shields.io/badge/node-%3E%3D18.12.1-blue.svg" />
+  <a href="#" target="_blank">
+    <img alt="License: ISC" src="https://img.shields.io/github/license/DrAcula27/react_counter" />
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Per Scholas - Week 10 - React - Assignment: React Counter
+
+> This is my third `React` assignment through my Software Engineering course at Per Scholas. The purpose of this assignment was to practice using React's `hooks`, specifically the `useState` and `useEffect` hooks.
+
+**This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).**
+
+## Static Demo
+
+![Counter Image](./client/src/img/static-demo.png)
+
+## Author
+
+👤 **Danielle Andrews**
+
+- Github: [@DrAcula27](https://github.com/DrAcula27)
+- LinkedIn: [@daniellerandrews](https://linkedin.com/in/daniellerandrews)
 
 ## Available Scripts
 
-In the project directory, you can run:
+### In the _<ins>project</ins>_ directory, you can run:
 
-### `npm start`
+#### `npm run dev`
+
+Runs the app in development mode.\
+Starts the backend on port 5000.\
+Starts the frontend on port 3000.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+### In the _<ins>client</ins>_ directory, you can run:
+
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,12 +45,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+#### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,7 +60,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
@@ -68,3 +99,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Show Your Support
+
+Give a ⭐️ if you liked this project!
