@@ -1,0 +1,21 @@
+span {
+  font-size: 20px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+button {
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  border: 2px solid green;
+  border-radius: 0.5em;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 5px black;
+}
